@@ -1,0 +1,19 @@
+{
+  "name": "coffee-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-register-components": "^2.0.0-beta.46",
+    "vuepress": "^2.0.0-beta.46"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.6.0",
+    "echarts": "^5.3.2",
+    "element-plus": "^2.2.5"
+  }
+}

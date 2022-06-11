@@ -34,7 +34,7 @@
 <script setup>
 import DefaultLayout from '@vuepress/theme-default/lib/client/layouts/Layout.vue'
 import { ref, watch } from 'vue'
-import { useBreakpoints } from '@vueuse/core'
+import { useBreakpoints, useEventListener } from '@vueuse/core'
 
 const breakpoints = useBreakpoints({
     tablet: 640,
@@ -42,9 +42,11 @@ const breakpoints = useBreakpoints({
     desktop: 1280,
 })
 
-const mobile = breakpoints.smaller('tablet')
+const mobile = ref(breakpoints.isSmaller('tablet'))
 const laptop = breakpoints.between('laptop', 'desktop')
 const desktop = breakpoints.greater('desktop')
+
+useEventListener(window, 'resize', () => mobile.value = breakpoints.isSmaller('tablet'))
 
 const lang = ref('中文')
 

@@ -1,0 +1,1 @@
+const a={key:"v-f3f346ca",path:"/navbar/chemical-substance-flavor-wheel.html",title:"",lang:"zh-CN",frontmatter:{layout:"chemical-substance-flavor-wheel-layout",sidebar:!1},excerpt:"",headers:[],git:{updatedTime:1654855439e3,contributors:[{name:"Quzp",email:"quzp@133.cn",commits:1}]},filePathRelative:"navbar/chemical-substance-flavor-wheel.md"};export{a as data};

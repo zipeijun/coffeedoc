@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as a}from"./app.0e5d7884.js";const r={};function t(l,o){return c(),a("div")}var n=e(r,[["render",t],["__file","chemical-substance-flavor-wheel.html.vue"]]);export{n as default};

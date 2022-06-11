@@ -1,0 +1,1 @@
+const a={key:"v-49b6ae2a",path:"/navbar/sca-flavor-wheel.html",title:"",lang:"zh-CN",frontmatter:{sidebar:!1},excerpt:"",headers:[],git:{updatedTime:165491515e4,contributors:[{name:"Quzp",email:"quzp@133.cn",commits:2}]},filePathRelative:"navbar/sca-flavor-wheel.md"};export{a as data};

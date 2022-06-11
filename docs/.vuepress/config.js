@@ -3,7 +3,7 @@ const { path } = require('@vuepress/utils')
 const { defaultTheme } = require('@vuepress/theme-default')
 
 module.exports = {
-    base: 'coffeedoc',
+    base: '/coffeedoc/',
     lang: 'zh-CN',
     title: 'Coffee Document',
     description: '科学喝咖啡指南',

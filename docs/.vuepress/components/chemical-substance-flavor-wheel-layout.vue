@@ -57,48 +57,6 @@ watch(lang, () => showData.value = null)
 </script>
 
 <style scoped>
-/* .container {
-    margin-top: var(--navbar-height);
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.content {
-    flex: 1 1 auto;
-    position: relative;
-}
-
-.main-content {
-    flex: 1 1 1000px;
-    border-width: 1wx;
-    border-style: solid;
-    border-color: red;
-} */
-
-/* .card {
-    background: #FFF;
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-} */
-
-/* .option-group {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
-} */
-
-/* .title {
-    font-size: var(--el-font-size-base);
-    margin: 0;
-}
-.text {
-    font-size: var(--el-font-size-large);
-    margin: 0;
-} */
-
 .container {
     margin-top: var(--navbar-height);
     position: relative;
@@ -108,7 +66,7 @@ watch(lang, () => showData.value = null)
     position: absolute;
     top: 10px;
     left: 10px;
-    z-index: 10;
+    z-index: 1;
 }
 
 .option-group-mobile {
